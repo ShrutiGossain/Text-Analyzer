@@ -1,3 +1,7 @@
+# Text-Analyzer
+
+Text Analyzer is the utility website to manipulate your text content in the way you want.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
