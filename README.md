@@ -2,6 +2,22 @@
 
 Text Analyzer is the utility website to manipulate your text content in the way you want.
 
+# What it does
+
+<strong>Convert to Uppercase or Lowercase:</strong>
+
+This operation changes all letters in the text to either uppercase or lowercase, providing a standardized format for the text.
+
+<Strong>Copying Text:</strong>
+
+The text analyzer duplicates or replicates the given text, essentially creating a copy of the original content.
+<strong>Removing Extra Spaces:</strong>
+
+The text analyzer eliminates unnecessary spaces within the text, ensuring a cleaner and more consistent presentation.
+<strong>Clearing Text:</strong>
+
+This operation involves cleaning the text by removing special characters, symbols, or unwanted elements. It aims to retain only the essential alphanumeric content.
+
 ## How to get started?
 - clone the repo 
 
