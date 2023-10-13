@@ -18,19 +18,19 @@ You can also contribute by working on existing issues listed in the Issues tab. 
 -Request project admins to assign the issue you intend to work on.
 -Wait until the issue is assigned to you. Contributions without proper assignment will be considered invalid. <br>
 
-4. Create a new branch for your contribution: git checkout -b feature/your-feature-name.
+4. Create a new branch for your contribution: `git checkout -b feature/your-feature-name`.
 
-5. Make your changes and commit them: git commit -m 'Add your feature or fix'.
+5. Make your changes and commit them: `git commit -m 'Add your feature or fix'`.
 
 6. Push your changes to your forked repository: git push origin feature/your-feature-name.
 
-7. Open a pull request (PR) to the main branch of the Cert Vault repository.
+7. Open a pull request (PR) to the `main` branch of the Cert Vault repository.
 
 8. Ensure that your PR includes a clear description of the changes and their benefits.
 
 9. Our maintainers will review your contribution and may provide feedback or request changes.
 
-10. Once your PR is approved, it will be merged into the main project.
+10. Once your PR is approved, it will be merged into the `main` project.
 
 Just take this as a reference and adapt it to fit the specific requirements and structure of the Cert Vault project. Happy contributing! 🚀
 
