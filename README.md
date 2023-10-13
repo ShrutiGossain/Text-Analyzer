@@ -23,11 +23,11 @@ This operation involves cleaning the text by removing the whole text elements.
 # Tech Used
 
 <li>
-   <ol>HTML</ol>
-   <ol>CSS</ol>
-   <ol>JavaScript</ol>
-   <ol>React.js</ol>
-   <ol>Node.js</ol>
+   <ul>HTML</ul>
+   <ul>CSS</ul>
+   <ul>JavaScript</ul>
+   <ul>React.js</ul>
+   <ul>Node.js</ul>
 </li>
 
 ## How to get started?
