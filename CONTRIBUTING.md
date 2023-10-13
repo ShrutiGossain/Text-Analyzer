@@ -44,7 +44,7 @@ Ensure that your code changes are well-documented. Update the README or any rele
 If you find an issue or a bug, please report it using the issue tracker. Include detailed information about how to reproduce the issue.
 
 # Hacktoberfest Participation
-To be eligible for Hacktoberfest, make sure your pull requests adhere to the Hacktoberfest guidelines. Visit the Hacktoberfest website for more information.
+To be eligible for Hacktoberfest, make sure your pull requests adhere to the Hacktoberfest guidelines. Visit the (Hacktoberfest website) for more information.
 
 # Acknowledgments
 We appreciate your time and effort in contributing to this project. Your contributions make the open-source community thrive!
