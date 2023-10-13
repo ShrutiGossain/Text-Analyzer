@@ -20,6 +20,16 @@ The text analyzer eliminates unnecessary spaces within the text, ensuring a clea
 
 This operation involves cleaning the text by removing the whole text elements. 
 
+# Tech Used
+
+<li>
+   <ol>HTML</ol>
+   <ol>CSS</ol>
+   <ol>JavaScript</ol>
+   <ol>React.js</ol>
+   <ol>Node.js</ol>
+</li>
+
 ## How to get started?
 - clone the repo 
 
