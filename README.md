@@ -11,9 +11,11 @@ This operation changes all letters in the text to either uppercase or lowercase,
 <Strong>Copying Text:</strong>
 
 The text analyzer duplicates or replicates the given text, essentially creating a copy of the original content.
+
 <strong>Removing Extra Spaces:</strong>
 
 The text analyzer eliminates unnecessary spaces within the text, ensuring a cleaner and more consistent presentation.
+
 <strong>Clearing Text:</strong>
 
 This operation involves cleaning the text by removing special characters, symbols, or unwanted elements. It aims to retain only the essential alphanumeric content.
