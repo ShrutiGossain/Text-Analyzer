@@ -18,7 +18,7 @@ The text analyzer eliminates unnecessary spaces within the text, ensuring a clea
 
 <strong>Clearing Text:</strong><br>
 
-This operation involves cleaning the text by removing special characters, symbols, or unwanted elements. It aims to retain only the essential alphanumeric content.
+This operation involves cleaning the text by removing the whole text elements. 
 
 ## How to get started?
 - clone the repo 
