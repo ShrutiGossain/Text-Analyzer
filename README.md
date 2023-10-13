@@ -22,13 +22,11 @@ This operation involves cleaning the text by removing the whole text elements.
 
 # Tech Used
 
-<li>
-   <ul>HTML</ul>
-   <ul>CSS</ul>
-   <ul>JavaScript</ul>
-   <ul>React.js</ul>
-   <ul>Node.js</ul>
-</li>
+- HTML
+- CSS
+- JavaScript
+- React.js
+- Node.js
 
 ## How to get started?
 - clone the repo 
