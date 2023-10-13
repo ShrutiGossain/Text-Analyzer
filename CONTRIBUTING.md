@@ -8,7 +8,7 @@ Thank you for considering contributing to our open-source project during Hacktob
 - Fork the Cert Vault project repository.
 - Clone the forked repository to your local machine. <br>
 
- 2.Review the Codebase:
+2. Review the Codebase:
 - Familiarize yourself with the existing codebase.
 - Report Issues or Suggest Improvements: 
 If you identify bugs, issues, or have suggestions for improvements, open an issue on our GitHub Issues page.
