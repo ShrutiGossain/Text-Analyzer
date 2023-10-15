@@ -40,7 +40,7 @@ Follow the existing code style and conventions. If there are specific guidelines
 # Documentation
 Ensure that your code changes are well-documented. Update the README or any relevant documentation as necessary.
 
-#Issues and Bugs
+# Issues and Bugs
 If you find an issue or a bug, please report it using the issue tracker. Include detailed information about how to reproduce the issue.
 
 # Hacktoberfest Participation
