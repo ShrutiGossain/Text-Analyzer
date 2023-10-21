@@ -10,8 +10,13 @@ export default function About(props) {
   const [btnText, setBtnText] = useState("Enable dark mode");
 
   return (
-    <div className="container" style={{color:props.mode==='dark' ? 'white':'black'}}>
-    <h1 style={{color: props.mode==='dark' ? 'white': 'black' }}>{props.heading}</h1>
+    <div
+      className="container"
+      style={{ color: props.mode === "dark" ? "white" : "black" }}
+    >
+      <h1 style={{ color: props.mode === "dark" ? "white" : "black" }}>
+        {props.heading}
+      </h1>
       <h1 className="container my-3">About Us</h1>
       <div className="accordion" id="accordionExample">
         <div className="accordion-item">
@@ -23,8 +28,12 @@ export default function About(props) {
               data-bs-target="#collapseOne"
               aria-expanded="true"
               aria-controls="collapseOne"
-              style={{backgroundColor:props.mode==='dark' ? 'grey':'white' , color:props.mode==='dark'? 'white':'black'}}
-            >About TextUtils
+              style={{
+                backgroundColor: props.mode === "dark" ? "grey" : "white",
+                color: props.mode === "dark" ? "white" : "black",
+              }}
+            >
+              <h5>About TextUtils</h5>
             </button>
           </h2>
           <div
@@ -33,9 +42,15 @@ export default function About(props) {
             aria-labelledby="headingOne"
             data-bs-parent="#accordionExample"
           >
-            <div className="accordion-body" style={{backgroundColor:props.mode==='dark' ? 'grey':'white' , color:props.mode==='dark'? 'white':'black'}}>
-                <b>Text Analyzer</b> is the utility website to manipulate your text
-                content in the way you want.
+            <div
+              className="accordion-body"
+              style={{
+                backgroundColor: props.mode === "dark" ? "grey" : "white",
+                color: props.mode === "dark" ? "white" : "black",
+              }}
+            >
+              <b>Text Analyzer</b> is the utility website to manipulate your
+              text content in the way you want.
             </div>
           </div>
         </div>
@@ -48,9 +63,12 @@ export default function About(props) {
               data-bs-target="#collapseTwo"
               aria-expanded="false"
               aria-controls="collapseTwo"
-              style={{backgroundColor:props.mode==='dark' ? 'grey':'white' , color:props.mode==='dark'? 'white':'black'}}
+              style={{
+                backgroundColor: props.mode === "dark" ? "grey" : "white",
+                color: props.mode === "dark" ? "white" : "black",
+              }}
             >
-              Features
+              <h5>Features</h5>
             </button>
           </h2>
           <div
@@ -59,26 +77,28 @@ export default function About(props) {
             aria-labelledby="headingTwo"
             data-bs-parent="#accordionExample"
           >
-            <div className="accordion-body" style={{backgroundColor:props.mode==='dark' ? 'grey':'white' , color:props.mode==='dark'? 'white':'black'}}>
-              
-               <strong>Convert to Uppercase or Lowercase: </strong> <br></br>
-                This operation changes all letters in the text to either
-                uppercase or lowercase, providing a standardized format for the
-                text.
-                <br></br>
-                <strong> Copying Text: </strong> <br></br> 
-                The text analyzer duplicates or replicates the
-                given text, essentially creating a copy of the original content.
-                <br></br>
-                <strong> Removing Extra Spaces: </strong> <br></br> 
-                The text analyzer eliminates unnecessary
-                spaces within the text, ensuring a cleaner and more consistent
-                presentation.
-                <br></br>
-                <strong> Clearing Text: </strong> <br></br>
-                This operation involves cleaning the text by
-                removing the whole text elements.
-            
+            <div
+              className="accordion-body"
+              style={{
+                backgroundColor: props.mode === "dark" ? "grey" : "white",
+                color: props.mode === "dark" ? "white" : "black",
+              }}
+            >
+              <strong>Convert to Uppercase or Lowercase: </strong> <br></br>
+              This operation changes all letters in the text to either uppercase
+              or lowercase, providing a standardized format for the text.
+              <br></br>
+              <strong> Copying Text: </strong> <br></br>
+              The text analyzer duplicates or replicates the given text,
+              essentially creating a copy of the original content.
+              <br></br>
+              <strong> Removing Extra Spaces: </strong> <br></br>
+              The text analyzer eliminates unnecessary spaces within the text,
+              ensuring a cleaner and more consistent presentation.
+              <br></br>
+              <strong> Clearing Text: </strong> <br></br>
+              This operation involves cleaning the text by removing the whole
+              text elements.
             </div>
           </div>
         </div>
@@ -91,9 +111,12 @@ export default function About(props) {
               data-bs-target="#collapseThree"
               aria-expanded="false"
               aria-controls="collapseThree"
-              style={{backgroundColor:props.mode==='dark' ? 'grey':'white' , color:props.mode==='dark'? 'white':'black'}}
+              style={{
+                backgroundColor: props.mode === "dark" ? "grey" : "white",
+                color: props.mode === "dark" ? "white" : "black",
+              }}
             >
-              Coming Soon
+              <h5>Coming Soon</h5>
             </button>
           </h2>
           <div
@@ -102,8 +125,13 @@ export default function About(props) {
             aria-labelledby="headingThree"
             data-bs-parent="#accordionExample"
           >
-            <div className="accordion-body" style={{backgroundColor:props.mode==='dark' ? 'grey':'white' , color:props.mode==='dark'? 'white':'black'}}>
-            </div>
+            <div
+              className="accordion-body"
+              style={{
+                backgroundColor: props.mode === "dark" ? "grey" : "white",
+                color: props.mode === "dark" ? "white" : "black",
+              }}
+            ></div>
           </div>
         </div>
       </div>
