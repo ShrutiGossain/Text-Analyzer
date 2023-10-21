@@ -34,7 +34,7 @@ function App() {
 <div className="container my-3">
 <Routes>
           <Route path="/about"
-            element= {<About/>}>
+            element= {<About mode={mode}/>}>
           </Route>
           <Route path="/"
           element={<TextForm  heading="Enter the text to analyze below" mode={mode}/>}>

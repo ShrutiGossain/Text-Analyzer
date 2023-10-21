@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function About() {
+export default function About(props) {
   const [myStyle, setMyStyle] = useState({
     color: "black",
     backgroundColor: "white",
@@ -9,28 +9,9 @@ export default function About() {
 
   const [btnText, setBtnText] = useState("Enable dark mode");
 
-  const toggleStyle = () => {
-    if (myStyle.color === "black") {
-      setMyStyle({
-        color: "white",
-        backgroundColor: "black",
-        border: "1px solid white",
-      });
-      setBtnText("Enable light mode");
-    } else {
-      {
-        setMyStyle({
-          color: "black",
-          backgroundColor: "white",
-          border: "1px solid black",
-        });
-        setBtnText("Enable dark mode");
-      }
-    }
-  };
-
   return (
-    <div className="container" style={myStyle}>
+    <div className="container" style={{color:props.mode==='dark' ? 'white':'black'}}>
+    <h1 style={{color: props.mode==='dark' ? 'white': 'black' }}>{props.heading}</h1>
       <h1 className="container my-3">About Us</h1>
       <div className="accordion" id="accordionExample">
         <div className="accordion-item">
@@ -42,9 +23,8 @@ export default function About() {
               data-bs-target="#collapseOne"
               aria-expanded="true"
               aria-controls="collapseOne"
-              style={myStyle}
-            >
-              About TextUtils
+              style={{backgroundColor:props.mode==='dark' ? 'grey':'white' , color:props.mode==='dark'? 'white':'black'}}
+            >About TextUtils
             </button>
           </h2>
           <div
@@ -53,7 +33,7 @@ export default function About() {
             aria-labelledby="headingOne"
             data-bs-parent="#accordionExample"
           >
-            <div className="accordion-body" style={myStyle}>
+            <div className="accordion-body" style={{backgroundColor:props.mode==='dark' ? 'grey':'white' , color:props.mode==='dark'? 'white':'black'}}>
                 <b>Text Analyzer</b> is the utility website to manipulate your text
                 content in the way you want.
             </div>
@@ -68,7 +48,7 @@ export default function About() {
               data-bs-target="#collapseTwo"
               aria-expanded="false"
               aria-controls="collapseTwo"
-              style={myStyle}
+              style={{backgroundColor:props.mode==='dark' ? 'grey':'white' , color:props.mode==='dark'? 'white':'black'}}
             >
               Features
             </button>
@@ -79,7 +59,7 @@ export default function About() {
             aria-labelledby="headingTwo"
             data-bs-parent="#accordionExample"
           >
-            <div className="accordion-body" style={myStyle}>
+            <div className="accordion-body" style={{backgroundColor:props.mode==='dark' ? 'grey':'white' , color:props.mode==='dark'? 'white':'black'}}>
               
                <strong>Convert to Uppercase or Lowercase: </strong> <br></br>
                 This operation changes all letters in the text to either
@@ -111,7 +91,7 @@ export default function About() {
               data-bs-target="#collapseThree"
               aria-expanded="false"
               aria-controls="collapseThree"
-              style={myStyle}
+              style={{backgroundColor:props.mode==='dark' ? 'grey':'white' , color:props.mode==='dark'? 'white':'black'}}
             >
               Coming Soon
             </button>
@@ -122,15 +102,10 @@ export default function About() {
             aria-labelledby="headingThree"
             data-bs-parent="#accordionExample"
           >
-            <div className="accordion-body" style={myStyle}>
+            <div className="accordion-body" style={{backgroundColor:props.mode==='dark' ? 'grey':'white' , color:props.mode==='dark'? 'white':'black'}}>
             </div>
           </div>
         </div>
-      </div>
-      <div className="container my-5">
-        <button type="button" onClick={toggleStyle} className="btn btn-primary">
-          {btnText}
-        </button>
       </div>
     </div>
   );
