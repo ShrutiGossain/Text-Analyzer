@@ -1,6 +1,6 @@
 # Text-Analyzer
 
-Text Analyzer is the utility website to manipulate your text content in the way you want.
+Text Analyzer is the utility website to manipulate your text content in the way you want. In addition to this, you can also get your text summary along with the preview.
 
 # What it does
 
